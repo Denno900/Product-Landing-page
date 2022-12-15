@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header">
+      <div>
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" >
+      </div>
+      <div class="nav-bar">
+      <nav id="nav-bar">
+        <ul>
+          <li><a  class="nav-link" href="#Features">Features</a></li>
+          <li><a  class="nav-link" href="#How-it-works">How it works</a></li>
+          <li><a  class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <form action="" id="form">
+      <h2>Handcrafted, home-made masterpieces</h2>
+        <p>Email:<input type="email" id="email" class="info" placeholder="Enter your email address" required name="email"/></p>
+        <p>Card:<input type="number" name="card" id="card" placeholder="Details MM/YY" class="info"></p>
+        <input id ="submit" type="submit" value="Get Started" class="btn"/>
+    </form> 
+        <section id="Features">
+          <div class="grid">
+            <div class="logo">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="desc">
+              <h2>Premium Material</h2>
+              <p class="para">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="logo">
+              <i class="fa fa-3x fa-truck"></i>
+              </div>
+              <div class="desc">
+                <h2>Fast Shipping</h2>
+                <p class="para">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+              </div>
+              </div>
+          <div class="grid">
+            <div class="logo">
+              <i class="fa fa-3x fa-battery-full"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p class="para">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+            </div>
+        </section>
+        <section id="How-it-works">
+          <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+        </section>
+        <section id="Pricing">
+          <div id="prices">
+            
+          </div>  
+        </section>
+        <section>
+          <div id="instruments" class="product2">
+            <h4 id="name" class="level">Name</h4>
+            <img id="img" alt="Image">
+            <p id="description">Description</p>
+            <p class="cashPrice">Price: Ksh<span id="price"></span></p>
+            <!-- <button class="btn">Order Now</button> -->
+          </div>
+        </section>
+      <script src="index.js"></script>
+  </body>
+</html>
