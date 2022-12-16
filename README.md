@@ -7,3 +7,4 @@
 1. Once an instument is chosen you can order it right away!  
 
 **Code is written by Dennis Mwaniki**
+*Please reach out for any clarifications*
